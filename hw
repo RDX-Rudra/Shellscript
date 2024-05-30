@@ -1,1 +1,13 @@
 printf "Hello, %s!\n" "$1"
+printf "%s\n" Print arguments on "separate lines"
+printf "%b\n" "Hello\nworld" "12\tword"
+printf "%d\n" 23 45 56.78 0xff 011
+printf "%f\n" 12.34 23 56.789 1.2345678
+printf "%e\n" 12.34 23 56.789 123.45678
+printf "color: #%02x%02x%02x;\n" 65 105 225
+printf "%8s %-15s:\n" first second third fourth fifth sixth
+printf "%04d\n" 12 23 56 123 255
+printf "%12.4s %9.2f\n" John 2 Jackson 4.579 Walter 2.9
+printf -v num4 "%04d" 4
+printf "%s\n" "$num4"
+exit 0
