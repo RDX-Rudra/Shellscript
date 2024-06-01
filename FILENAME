@@ -1,0 +1,10 @@
+19338
+29052
+11619
+10738
+16913
+12164
+19279
+10369
+#! printf "%s\n" "$RANDOM" "$RANDOM" "$RANDOM" "$RANDOM" | tee FILENAME
+#! printf "%s\n" "$RANDOM" "$RANDOM" "$RANDOM" "$RANDOM" | tee -a FILENAME
